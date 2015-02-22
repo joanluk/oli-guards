@@ -1,23 +1,8 @@
-/*
- * Copyright (c) 2010 the original author or authors.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.emaginalabs.oli;
 
 /**
  * <p>
- * The primary Kite abstraction, a <code>Guard</code> is a component that protects your service from performance and
+ * The primary oli abstraction, a <code>Guard</code> is a component that protects your service from performance and
  * availability problems. Examples of guards include circuit breakers and throttles.
  * </p>
  * <p>
@@ -25,7 +10,7 @@ package com.emaginalabs.oli;
  * general the action is a call to a service method, though it doesn't have to be.
  * </p>
  * <p>
- * There are three different ways to use Kite guards:
+ * There are three different ways to use Oli guards:
  * </p>
  * <ul>
  * <li>The most basic way is to use them programmatically. This is useful when you want fine-grained control over the
@@ -34,7 +19,7 @@ package com.emaginalabs.oli;
  * <li>You can use annotations to attach guards to methods. This is the recommended approach.</li>
  * </ul>
  * <p>
- * In addition to the above, Kite has a custom namespace that allows you to streamline your Spring configuration,
+ * In addition to the above, Oli has a custom namespace that allows you to streamline your Spring configuration,
  * including guard definition.
  * </p>
  *

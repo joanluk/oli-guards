@@ -34,7 +34,7 @@ import com.emaginalabs.oli.interceptor.GuardListInterceptor;
 
 
 /**
- * Parses &lt;kite:annotation-config&gt; into Kite infrastructure beans.
+ * Parses &lt;oli:annotation-config&gt; into oli infrastructure beans.
  *
  */
 class AnnotationConfigParser implements BeanDefinitionParser {

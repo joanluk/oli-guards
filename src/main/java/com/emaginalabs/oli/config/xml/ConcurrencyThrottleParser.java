@@ -22,7 +22,7 @@ import org.w3c.dom.Element;
 
 
 /**
- * Parses <code>&lt;kite:concurrency-throttle&gt;</code> elements in Spring application context configuration files.
+ * Parses <code>&lt;oli:concurrency-throttle&gt;</code> elements in Spring application context configuration files.
  *
  */
 class ConcurrencyThrottleParser extends AbstractSingleBeanDefinitionParser {

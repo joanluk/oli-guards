@@ -28,11 +28,11 @@ public class OliNamespaceHandler extends NamespaceHandlerSupport {
 	private static Logger log = LoggerFactory.getLogger(OliNamespaceHandler.class);
 
 	/**
-	 * Registers bean definition parsers for the various custom top-level Kite tags, such as
-	 * <code>&lt;kite:circuit-breaker&gt;</code>.
+	 * Registers bean definition parsers for the various custom top-level Oli tags, such as
+	 * <code>&lt;oli:circuit-breaker&gt;</code>.
 	 */
 	public void init() {
-		log.info("Initializing KiteNamespaceHandler");
+		log.info("Initializing OliNamespaceHandler");
 		registerBeanDefinitionParser("annotation-config", new AnnotationConfigParser());
 		registerBeanDefinitionParser("guard-list-advice", new GuardListAdviceParser());
 		registerBeanDefinitionParser("circuit-breaker", new CircuitBreakerParser());

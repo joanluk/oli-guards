@@ -26,7 +26,7 @@ import com.emaginalabs.oli.interceptor.GuardListInterceptor;
 
 
 /**
- * Parses <code>&lt;kite:guard-list-advice&gt;</code> elements in Spring application context configuration files.
+ * Parses <code>&lt;oli:guard-list-advice&gt;</code> elements in Spring application context configuration files.
  *
  */
 class GuardListAdviceParser extends AbstractSingleBeanDefinitionParser {

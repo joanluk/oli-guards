@@ -21,7 +21,7 @@ import org.w3c.dom.Element;
 
 
 /**
- * Parses <code>&lt;kite:circuit-breaker&gt;</code> elements in Spring application context configuration files.
+ * Parses <code>&lt;oli:circuit-breaker&gt;</code> elements in Spring application context configuration files.
  *
  */
 class CircuitBreakerParser extends AbstractSimpleBeanDefinitionParser {
