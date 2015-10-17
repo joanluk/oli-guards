@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/joanluk/oli-guards.svg?branch=master)](https://travis-ci.org/joanluk/oli-guards)
+
+
 Oli is a Spring-based library of components, called _guards_, implementing various patterns for managing app/service
 availability, performance and capacity. It's based in part upon patterns in the Release It! book by Michael Nygard.
 
