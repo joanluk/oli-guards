@@ -129,6 +129,14 @@
 					<docfilessubdirs>true</docfilessubdirs>
 				</configuration>
 			</plugin>
+			<plugin>
+		                <groupId>org.eluder.coveralls</groupId>
+		                <artifactId>coveralls-maven-plugin</artifactId>
+		                <version>3.0.1</version>
+		                <configuration>
+		                    <repoToken>mhDhZkqltdYbnpWWKQ24IDhf60DEUT9BG</repoToken>
+		                </configuration>
+		            </plugin>
 		</plugins>
 	</build>
 </project>
